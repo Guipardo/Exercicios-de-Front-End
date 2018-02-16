@@ -1,0 +1,57 @@
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.titulo{
+    font-size: 24px;
+    font-family: sans-serif;
+    color:tomato;
+    text-align: left;
+}
+.blocoVideo{
+        width:300px;
+        height: 200px;
+        margin-bottom:20px;
+        display:block
+}
+.galeria{
+    padding:20px 10px; 10px; 10px;
+    width:320px;
+    height:auto;
+    background-color:white;
+}
+.footer{
+    width:100%;
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-align: center;
+}
+}
+
+.titulo{
+    font-size: 24px;
+    font-family: sans-serif;
+    color:tomato;
+    text-align: left;
+}
+.blocoVideo{
+        width:300px;
+        height: 200px;
+        margin-bottom:20px;
+        display:block
+}
+.galeria{
+    padding:20px 10px; 10px; 10px;
+    width:320px;
+    height:auto;
+    background-color:white;
+}
+.footer{
+    width:100%;
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-align: center;
+}
+
