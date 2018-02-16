@@ -1,0 +1,65 @@
+body{
+    background-image: url(images/party.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.formulario{
+    background-color: black;
+    width:400px;
+    height:auto;
+    color:rgb(51, 102, 255); /* Azul escuro */
+    margin-left: 30%;
+    margin-top:5%;
+    padding: 20px 20px 20px 20px;
+    border:3px solid rgb(255, 182, 75);/* Amarelo */
+    border-radius: 5%;
+}
+
+.cabecalho{
+    text-align: center;
+}
+
+.cabecalho .titulo{
+    font-size: 36px;
+}
+
+.cabecalho .subtitulo{
+    font-size: 24px;
+    color:rgb(255, 182, 75); /* Amarelo */
+}
+
+input[type="text"],input[type="password"]{
+    width: 100%;
+    border:none;
+    background:transparent;
+    border-bottom:2px solid rgb(255, 182, 75); /* Amarelo */
+    color:white;
+}
+
+input[type="submit"]{
+    color:white;
+    font-size: 36px;
+    background-color: black;
+    margin-top:18px;
+    width:100%;
+    border:none;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+input[type="submit"]:hover{
+    color:white;
+    background:rgb(51, 102, 255);/* Azul */
+}
+
+.links{
+    margin-top:20px;
+}
+
+.links a{
+    text-align: center;
+    text-decoration: none;
+    color:rgb(255, 182, 75); /* Amarelo */
+}
