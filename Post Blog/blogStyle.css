@@ -1,0 +1,103 @@
+body{
+    margin-top:10px;
+    margin-left:10px;
+    font-family: sans-serif;
+}
+
+.painelSuperior{
+    width:100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom:20px;
+    background-color: cadetblue;
+}
+
+.menu li{
+    display:inline;
+    margin-left: 10px;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu a{
+    color:white;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: white;
+    color:black;
+}
+
+.menu{
+    display:inline;
+}
+
+.logotipo{
+    width:250px;
+    height:150px;
+    border-radius: 50%;
+    border:2px solid white;
+}
+
+.menuLateral{
+    position:relative;
+    float:left;
+    padding-right:100px;
+    margin-right: 20px;
+    background-color: white;
+    color:black;
+    font-family: 'Open Sans';
+    border:1px solid tomato;
+    min-height: 800px;
+    max-height: auto;
+}
+
+.menuLateral li{
+    list-style: none;
+}
+
+.menuLateral a{
+    text-decoration: none;
+    color:black;
+}
+
+.menuLateral a:hover{
+    font-size: 24px;
+}
+
+.conteudo{
+    position:relative;
+    display: inline-block;
+}
+
+.picturePost{
+    width:400px;
+    height: 300px;
+    padding-left: 20%;
+}
+
+.titulo{
+    font-size: 42px;
+    color:tomato;
+}
+
+.subtitulo{
+    font-size: 24px;
+    font-style: italic;
+    color:crimson;
+}
+
+.textoPostagem{
+    text-align: justify;
+    font-size: 20px;
+    text-indent: inherit;
+}
+
+.rodape{
+    width:100%;
+    text-align: center;
+    background: tomato;
+    padding-top:10px;
+    padding-bottom:10px;
+}
