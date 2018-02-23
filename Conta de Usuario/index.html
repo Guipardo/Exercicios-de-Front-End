@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <title>Your Profile</title>
+        <link rel="icon" type="image/png" href="images/logoGithub.png"/>
+        <style type="text/css">
+            body{
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            }
+            .conteudo{
+                position: relative;
+                left:160px;
+                top:10px;
+                
+            }
+            
+            .conteudo .painel{
+                position: relative;
+                top:-20px;
+            }
+            
+            .menuConfig, .painel{ float:left;min-height: 100%;margin-right: 30px; }
+            .menu{ border-collapse: collapse; border-radius:10px; color:rgb(51,153,255);} 
+            .menu tr td{ border:1px solid gray; padding: 7px 60px 7px 7px; }
+            #vazio td { border:none }
+            #menuTitulo { background-color: rgb(224,224,224); color:rgb(64,64,64); }
+            .menu tr td:hover{ color:rgb(64,64,64); text-decoration: underline; border-left-color: tomato; font-weight: bold;}
+            
+            label{ font-weight: bold}
+            
+            .titulo{
+                font-size: 24px;
+            }
+            
+            .inputs{
+                width:40%;
+            }
+            
+            input[type="text"]{
+                height:1px;
+            }
+            
+            .photo{
+                float:right;
+            }
+            
+            #profilePhoto{
+                width: 180px;
+                height: 180px;
+                border-radius:10px;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+    <section class="conteudo"> 
+        <section class="menuConfig">
+            <table class="menu">
+                <tr id="menuTitulo"><td> Personal Settings </td></tr>
+                <tr><td>Profile</td></tr>
+                <tr><td>Account</td></tr>
+                <tr><td>Emails</td></tr>
+                <tr><td>Notifications</td></tr>
+                <tr><td>Billing</td></tr>
+                <tr><td>SSH and GPG Keys</td></tr>
+                <tr><td>Security</td></tr>
+                <tr><td>Blocked Users</td></tr>
+                <tr><td>Repositories</td></tr>
+                <tr><td>Organizations</td></tr>
+                <tr><td>Saved Replies</td></tr>
+                <tr><td>Applications</td></tr>
+                <tr id="vazio"><td></td></tr>
+                <tr><td>Developer Settings</td></tr>
+            </table>
+        </section>
+            
+        <section class="painel"> 
+            <h1 class="titulo"> Public profile </h1>
+            <hr/>
+            <section class="photo">
+                <label> Profile Picture</label>
+                <br/>
+                <img src="images/photo.jpeg" alt="Profile photo" id="profilePhoto"/>
+                <br/>
+                <input type="file" name="photofile"/>
+            </section>
+            <br/>
+            <label> Name </label>
+            <br/>
+            <input type="text" name="name" value="Guilherme Rodrigues Martins" class="inputs"/>
+            <br/><br/>
+            <label> Public Email </label>
+            <br/>
+            <select><option value="email" class="inputs">Select a verified email to display</option></select>
+            <p> You have set your email address to private. To toggle email privacy, go to <a href="#"> email settings</a> and uncheck "Keep my email address private" </p>
+            <label> Bio </label>
+            <br/>
+            <textarea rows="4" cols="50" class="inputs">
+                Tell us a little bit about yourself
+            </textarea>
+            <p> You can @<b>mention</b> other users and organizations to link them </p>
+            <label> URL </label>
+            <br/>
+            <input type="text" name="url" class="inputs"/>
+            <br/><br/>
+            <label> Company </label>
+            <br/>
+            <input type="text" name="company" class="inputs"/> 
+            <p> You can @<b>mention</b> your companys GitHub organization to link it  </p>
+            <hr>
+        </section>
+    </section>
+    </body>
+</html>
