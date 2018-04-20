@@ -1,0 +1,109 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,p,span
+{
+    font-family: 'Anton',sans-serif;
+}
+
+body
+{
+  background-image: url("imagens/party.jpg");
+  background-size: cover;
+}
+
+#painel
+{
+  margin: 10em 0 2em 5em;
+  height: auto;
+}
+
+.quebraDeLinha
+{
+  float: left;
+}
+
+.caixa
+{
+  box-sizing: border-box;
+  padding: 2em;
+  background-color: rgb(5,1,18);
+  color:white;
+  float: left;
+  margin: 0 5em 2em 0;
+  min-height: 40em;
+  width: 20em;
+  height: auto;
+  box-shadow: 1em 1em white;
+}
+
+.foto
+{
+  width:5em;
+  height: 5em;
+}
+
+.textoGrande
+{
+  font-size: 4em;
+}
+
+.textoMedio
+{
+  font-size: 2em;
+}
+
+.textoPequeno
+{
+  font-size: 0.5em;
+}
+
+.destaque
+{
+  color:rgba(127,63,191,1);
+}
+
+.justificado
+{
+  text-align: justify;
+}
+
+#caixa1
+{
+  background-color:rgba(127,63,191,1);
+  color:white;
+}
+
+#reservar
+{
+  background-color: black;
+  color:rgba(219,226,236,255);
+  box-sizing: border-box;
+  padding: 0.5em;
+  margin-top: 1em;
+  border: none;
+}
+
+#reservar:hover
+{
+  color:yellow;
+}
+
+#capitular
+{
+  font-size: 2em;
+}
+
+.comentario
+{
+  margin-top: 2em;
+  float: left;
+}
+
+.conteudo
+{
+  float: left;
+}
